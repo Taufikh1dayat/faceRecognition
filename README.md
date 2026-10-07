@@ -1,33 +1,25 @@
-# Face and Hand Detector with Drawing Feature
+# Portfolio React
 
-## Description
-This is a Python program that uses OpenCV and MediaPipe to detect faces and hands in real time using a webcam. Additionally, it includes a feature that allows users to draw on the screen using their index finger. If all five fingers are extended, the canvas is cleared.
+Website portofolio modern berbasis React + Vite dengan tampilan bersih, section lengkap, dan daftar project yang terhubung langsung ke GitHub.
 
-## Features
-- **Face Detection**: Detects and highlights faces using a bounding box.
-- **Hand Detection**: Detects hands and marks key points.
-- **Drawing Feature**: Allows users to draw using their index finger.
-- **Clear Canvas**: When all five fingers are extended, the canvas is cleared.
+## Fitur
+- **Hero profesional** dengan CTA yang jelas.
+- **Section about, layanan, skills, dan kontak** yang siap disesuaikan.
+- **Project otomatis** dari GitHub (menggunakan GitHub API).
+- **Desain responsif** untuk desktop dan mobile.
 
-## Requirements
-Ensure you have the following dependencies installed before running the program:
+## Cara Menjalankan
 
 ```sh
-pip install opencv-python mediapipe numpy
+npm install
+npm run dev
 ```
 
-## Usage
-Run the script using Python:
+Akses di `http://localhost:4173`.
 
-```sh
-python facerecogn.py
-```
+## Konfigurasi GitHub
+Buka `src/App.jsx`, lalu ganti nilai `profile.github` dengan URL GitHub Anda agar daftar project terisi otomatis.
 
-### Controls:
-- Move your index finger to draw on the screen.
-- Extend all five fingers to clear the canvas.
-- Press `q` to exit the program.
-
-## Acknowledgments
-- [OpenCV](https://opencv.org/)
-- [MediaPipe](https://mediapipe.dev/)
+## Kustomisasi
+- Ubah data profil (nama, role, email, lokasi) di `src/App.jsx`.
+- Ubah warna dan gaya tampilan di `src/App.css`.
